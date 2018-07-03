@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 PEP (abc) <-> PYR (abc),
 PYR (abc) -> ACA (bc) + CO2 (a),
 OAA (abcd) + ACA (ef) -> CIT (dcbfea),
@@ -12,3 +13,19 @@ MAL (abcd) -> PYR (abc) + CO2 (d),
 PEP (abc) + CO2 (d) -> OAA (abcd),
 -> PYR,10
 CO2 ->,
+=======
+PEP (abc) <-> PYR (abc),
+PYR (abc) -> ACA (bc) + CO2 (a),
+OAA (abcd) + ACA (ef) -> CIT (dcbfea),
+CIT (abcdef) <-> ICI (abcdef),
+ICI (abcdef) <-> AKG (abcde) + CO2 (f),
+AKG (abcde) -> SUCCOA (bcde) + CO2 (a),
+SUCCOA (abcd) -> SUCC (abcd),
+SUCC (abcd = dcba) <-> FUM (abcd = dcba),
+FUM (abcd = dcba) <-> MAL (abcd),
+MAL (abcd) <-> OAA (abcd),
+MAL (abcd) -> PYR (abc) + CO2 (d),
+PEP (abc) + CO2 (d) -> OAA (abcd),
+-> PYR,10
+CO2 ->,
+>>>>>>> 2024247f7ad30fed5e7c393c7eddc78b1a8690d7

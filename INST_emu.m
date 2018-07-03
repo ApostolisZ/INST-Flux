@@ -15,7 +15,11 @@ function INST_emu(analysis_name, nloop, init_fracs_zero, seed)
 %   will be generated
 %
 %   A test folder is included when downloading INST-FLUX which can be used
+<<<<<<< HEAD
 %   as a template for new data sets.  testgit
+=======
+%   as a template for new data sets. 
+>>>>>>> 2024247f7ad30fed5e7c393c7eddc78b1a8690d7
 
 
 
