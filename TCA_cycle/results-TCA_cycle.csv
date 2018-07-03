@@ -1,0 +1,41 @@
+Fluxes
+Reaction,Net flux,Exchange flux
+1 PEP = 1 PYR ,-12.543,0.00989193
+1 PYR -> 1 ACA + 1 CO2 ,10,0
+1 ACA + 1 OAA -> 1 CIT ,10,0
+1 CIT = 1 ICI ,10,35.2532
+1 ICI = 1 CO2 + 1 AKG ,10,4.98645
+1 AKG -> 1 CO2 + 1 SUCCOA ,10,0
+1 SUCCOA -> 1 SUCC ,10,0
+1 SUCC = 1 FUM ,10,109.667
+1 FUM = 1 MAL ,10,12.8913
+1 MAL = 1 OAA ,-2.54295,0.0216721
+1 MAL -> 1 PYR + 1 CO2 ,12.543,0
+1 PEP + 1 CO2 -> 1 OAA ,12.543,0
+-> 1 PYR ,10,0
+1 CO2 -> ,30,0
+
+Metabolite Concentrations
+Metabolite,Concentration
+PEP,1
+PYR,0.0699749
+ACA,0.000381296
+CO2,12.6708
+OAA,68.9433
+CIT,0.0366001
+ICI,0.00763732
+AKG,0.00902349
+SUCCOA,5.82708e-06
+SUCC,1.57251e-06
+FUM,0.467929
+MAL,1.12482e-05
+
+Isotopomer Fractions
+Isotopomer,Fraction
+PEP_111,0.269271
+PEP_101,0.216487
+PEP_010,0.513741
+
+Dilution Factors
+Metabolite,Dilution factor
+PYR,0.999849

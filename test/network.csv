@@ -1,0 +1,10 @@
+A (ab) -> B (ab),
+B (ab) + E (cd) -> C (abcd),
+C (abcd) <-> D (bcd) + F (a),
+D (abc) -> E (ab) + H (c) ,
+D (abc) <-> B (ba) + J (c) ,
+F (a) -> G (a),
+-> A,1
+G ->,
+H ->,
+J (a) ->,
