@@ -1,4 +1,4 @@
-function plot_result(x, emumodel, ldata, nz_isos)
+function sim_mids = plot_result_forward_sim(x, emumodel, ldata, nz_isos)
 %PLOT_RESULT plots the MIDs and experimental data
 %   PLOT_RESULT(X,EMUMODEL,LDATA,NZ_ISOS) generates a figure containing the
 %   experimental data and the simulated data for the decision variables
@@ -43,7 +43,8 @@ for iemu = 1:nemu
     subplot(mplot, nplot, iemu)
 
     sim_mid = calc_sim_mid(mids, iemu, emumodel, ldata, conc, dilutions);
-
+    sim_mids{iemu,1} = ldata.emus(iemu);
+    sim_mids{iemu,2} = sim_mid;
     plot(ldata.t, sim_mid');
     
     hold on
